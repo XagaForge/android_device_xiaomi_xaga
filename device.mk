@@ -7,6 +7,11 @@
 # Inherit from mt6895-common
 $(call inherit-product, device/xiaomi/mt6895-common/mt6895.mk)
 
+# Fastboot package
+PRODUCT_BUILD_SUPER_PARTITION := true
+PRODUCT_FASTBOOT_TEMPLATE_ZIP := $(LOCAL_PATH)/prebuilts/fastboot.zip
+PRODUCT_FASTBOOT_IMAGES_PATH := images
+
 # FM Radio
 PRODUCT_PACKAGES += \
     FMRadio
