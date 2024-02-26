@@ -12,6 +12,10 @@ include device/xiaomi/mt6895-common/BoardConfigCommon.mk
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Fastboot package
+BOARD_BOOTLOADER_IN_UPDATE_PACKAGE := true
+BOARD_SUPER_IMAGE_IN_UPDATE_PACKAGE := true
+
 # HIDL
 ODM_MANIFEST_SKUS += \
     xagain \
