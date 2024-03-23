@@ -14,7 +14,7 @@ mcupm.img;AB
 md1img.img;AB
 mvpu_algo.img;AB
 pi_img.img;AB
-preloader_xaga.bin:preloader_raw.img;AB
+preloader_aristotle.bin:preloader_raw.img;AB|d9399d4faeea64cf82b2675aa6b26bd8cbd75e36
 scp.img;AB
 spmfw.img;AB
 sspm.img;AB
