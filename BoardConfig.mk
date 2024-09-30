@@ -10,7 +10,7 @@ DEVICE_PATH := device/xiaomi/xaga
 include device/xiaomi/mt6895-common/BoardConfigCommon.mk
 
 # Display
-TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 440
 
 # HIDL
 ODM_MANIFEST_SKUS += \
