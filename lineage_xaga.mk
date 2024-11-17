@@ -14,6 +14,15 @@ $(call inherit-product, device/xiaomi/xaga/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2460
+TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# ROM Flags
+TARGET_DISABLE_EPPE := true
+WITH_GMS := true
+
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := xaga
 PRODUCT_MANUFACTURER := Xiaomi
