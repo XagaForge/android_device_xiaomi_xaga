@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from xaga-user 14 SP1A.210812.016 V816.0.5.0.ULOCNXM release-keys
+## are from xaga-user 14 SP1A.210812.016 V816.0.8.0.ULOCNXM release-keys
 
 apusys.img;AB
 audio_dsp.img;AB
