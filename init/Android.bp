@@ -4,6 +4,14 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+
+prebuilt_etc {
+    name: "init.project.rc",
+    src: "init.project.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
 prebuilt_etc {
     name: "init.xaga.rc",
     src: "init.xaga.rc",
