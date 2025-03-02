@@ -589,9 +589,6 @@ vendor/lib64/mt6895/xagas5khm2_mipi_raw_tuning.so;SYMLINK=vendor/lib64/xagas5khm
 # Charger (Mi Turbo Charge)
 vendor/bin/batterysecret
 
-# Device Project
-vendor/etc/init/hw/init.project.rc
-
 # Display Configs
 vendor/etc/cust_color.xml
 vendor/etc/cust_color_36.xml
