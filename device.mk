@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
+    init.project.rc \
     init.xaga.rc
 
 # Shipping API Level
