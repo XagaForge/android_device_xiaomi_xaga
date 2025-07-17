@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
     FrameworksResXagaPro \
     NfcOverlayXaga \
     NfcOverlayXagaPro \
+    SettingsOverlayXagaCn \
+    SettingsOverlayXaga \
+    SettingsOverlayXagaIn \
+    SettingsOverlayXagaPro \
     SettingsProviderOverlayXagaCn \
     SettingsProviderOverlayXaga \
     SettingsProviderOverlayXagaIn \
