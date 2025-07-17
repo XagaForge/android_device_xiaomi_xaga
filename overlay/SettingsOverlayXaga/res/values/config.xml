@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+    Copyright (C) 2025 The LineageOS Project
+
+    SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ares_device_message" translatable="false">POCO X4 GT</string>
+    <string name="ares_processor_code_message" translatable="false">Mediatek Dimensity 8100</string>
+    <string name="ares_battery_type_message" translatable="false">5080 mAh</string>
+    <string name="ares_screen_message" translatable="false">IPS LCD 144Hz</string>
+</resources>
