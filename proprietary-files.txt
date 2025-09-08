@@ -639,13 +639,15 @@ vendor/etc/thermal-per-camera.conf
 vendor/etc/thermal-per-class0.conf
 vendor/etc/thermal-per-huanji.conf
 vendor/etc/thermal-per-navigation.conf
-vendor/etc/thermal-per-normal.conf
 vendor/etc/thermal-per-video.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermal-videochat.conf
 vendor/etc/thermald-devices.conf
+
+# Thermal configs - modified
+vendor/etc/thermal-per-normal.conf|393eb04bf1e2ac6d05da5ac7cab0612ffc799ad6
 
 # Touchscreen Firmware (novatek)
 vendor/firmware/novatek_nt36672e_l16_fw01.bin
