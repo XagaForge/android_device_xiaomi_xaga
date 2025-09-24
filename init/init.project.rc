@@ -17,28 +17,6 @@ on post-fs-data
     chmod 0444 /sys/kernel/thermal/atc
     chown cameraserver cameraserver /sys/class/thermal/thermal_message/flash_state
 
-    # Camera
-    chmod 0660 /dev/MAINAF
-    chown system camera /dev/MAINAF
-
-    chmod 0660 /dev/MAINAF2
-    chown system camera /dev/MAINAF2
-
-    chmod 0660 /dev/SUBAF
-    chown system camera /dev/SUBAF
-
-    chmod 0660 /dev/GAF001AF
-    chown system camera /dev/GAF001AF
-
-    chmod 0660 /dev/DW9714AF
-    chown system camera /dev/DW9714AF
-
-    chmod 0660 /dev/LC898212AF
-    chown system camera /dev/LC898212AF
-
-    chmod 0660 /dev/BU64745GWZAF
-    chown system camera /dev/BU64745GWZAF
-
     # NFC
     mkdir /data/vendor/nfc 0770 nfc nfc
     chmod 0660 /dev/nq-nci
@@ -60,14 +38,11 @@ on post-fs-data
     mkdir /data/vendor/camera
     chown root system /data/vendor/camera
     chmod 0777 /data/vendor/camera
-    chmod 777 data/vendor/camera/com.xiaomi.dcal.wu.data
 
 on boot
     # Display feature sysfs node
     chown system system /sys/class/mi_display/disp-DSI-0/disp_param
     chmod 0664 /sys/class/mi_display/disp-DSI-0/disp_param
-    chown system system /sys/class/mi_display/disp-DSI-0/mipi_rw
-    chmod 0664 /sys/class/mi_display/disp-DSI-0/mipi_rw
     chown system system /sys/class/mi_display/disp-DSI-0/panel_info
     chmod 0444 /sys/class/mi_display/disp-DSI-0/panel_info
     chown system system /sys/class/mi_display/disp-DSI-0/wp_info
@@ -76,8 +51,6 @@ on boot
     chmod 0444 /sys/class/mi_display/disp-DSI-0/dynamic_fps
     chown system system /sys/class/mi_display/disp-DSI-0/doze_brightness
     chmod 0664 /sys/class/mi_display/disp-DSI-0/doze_brightness
-    chown system system /sys/class/mi_display/disp-DSI-0/disp_count
-    chmod 0664 /sys/class/mi_display/disp-DSI-0/disp_count
     chown system system /sys/class/mi_display/disp-DSI-0/brightness_clone
     chmod 0664 /sys/class/mi_display/disp-DSI-0/brightness_clone
     # camera flash led
