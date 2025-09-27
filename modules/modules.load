@@ -21,7 +21,6 @@ mtk_u_ether.ko
 mtk_usb_f_rndis.ko
 asix.ko
 ax88179_178a.ko
-rps_perf.ko
 mtk_battery_oc_throttling.ko
 mtk_low_battery_throttling.ko
 mtk_dynamic_loading_throttling.ko
