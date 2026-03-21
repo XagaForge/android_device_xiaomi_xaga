@@ -9,6 +9,9 @@ DEVICE_PATH := device/xiaomi/xaga
 # Inherit from mt6895-common
 include device/xiaomi/mt6895-common/BoardConfigCommon.mk
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := xaga
+
 # Display
 TARGET_SCREEN_DENSITY := 430
 
