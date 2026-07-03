@@ -5,7 +5,6 @@ apusys.img;AB
 audio_dsp.img;AB
 ccu.img;AB
 dpm.img;AB
-dtbo.img;AB
 gpueb.img;AB
 gz.img;AB
 lk.img;AB|3ac0873251ba5a632afbdc6adf91f4bdf3e849b8
